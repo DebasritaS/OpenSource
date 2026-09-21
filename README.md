@@ -1,13 +1,22 @@
-# OPENSOURCE CONTRIBUTION 
+# OPENSOURCE CONTRIBUTION
 
-1.          git status  
-     -untracked, modified, staged, unmodified
-2.          git add <Filename> or . (all) 
-     <br>
-               git commit -m "Message" 
-     <br>
-               git push origin main 
-3.          git pull --rebase origin main
-     <br>
-                git push --force origin main
+1. Check the repository status:
 
+```bash
+git status
+```
+
+2. Stage, commit, and push changes:
+
+```bash
+git add <filename>   # or . to add all files
+git commit -m "Message"
+git push origin main
+```
+
+3. Pull remote changes and push again if needed:
+
+```bash
+git pull --rebase origin main
+git push --force origin main
+```
