@@ -41,7 +41,7 @@ To change current working branch:
 ```bash
 git checkout <branch-name>
 ```
-To delete branch:
+To delete branch(cannot delete current working branch, change current working branch before deleting):
 
 ```bash
 git branch -d <branch-name>
