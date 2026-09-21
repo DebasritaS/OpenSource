@@ -16,6 +16,11 @@ git init
 ```bash
 git remote add origin <repository-url>
 ```
+Verify remote:
+
+```bash
+git remote -v
+```
 
 4. Check the repository status:
 
