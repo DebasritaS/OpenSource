@@ -69,6 +69,11 @@ git push origin main
 ```bash
 git push -u origin main # to upstream
 ```
+To push another branch to github:
+
+```bash
+git push origin <branch-name>
+```
 
 6. Pull remote changes and push again if needed:
 
