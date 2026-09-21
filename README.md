@@ -4,10 +4,10 @@
      -untracked, modified, staged, unmodified
 2.          git add <Filename> or . (all) 
      <br>
-            git commit -m "Message" 
+               git commit -m "Message" 
      <br>
-            git push origin main 
+               git push origin main 
 3.          git pull --rebase origin main
      <br>
-            git push --force origin main
+                git push --force origin main
 
