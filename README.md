@@ -33,3 +33,11 @@ git pull --rebase origin main
 ```bash
 git push --force origin main
 ```
+5. Remove .git from project1 inside another git repo
+
+```bash
+cd project1
+```
+```bash
+rm -rf .git
+```
