@@ -91,3 +91,21 @@ cd project1
 ```bash
 rm -rf .git
 ```
+8. To compare another branch <branch-name> with current working branch:
+
+```bash
+git diff <branch-name>
+```
+
+9. To merge 2 branches(<branch-name> & current working branch) using Git:
+
+```bash
+git merge <branch-name>
+```
+We can also create PR on Github for the same result.
+
+10. To change local main branch from remote origin:
+
+```bash
+git pull origin main 
+```
