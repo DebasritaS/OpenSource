@@ -6,14 +6,24 @@
 ```bash
 git init
 ```
+2. Git clone
+ 
+ ```bash
+ git clone <repository-url>
+ ```
+ 3. Add a GitHub repository as a remote:
 
-2. Check the repository status:
+```bash
+git remote add origin <repository-url>
+```
+
+4. Check the repository status:
 
 ```bash
 git status
 ```
 
-3. Stage, commit, and push changes:
+5. Stage, commit, and push changes:
 
 ```bash
 git add <filename>   # or . to add all files
@@ -25,7 +35,7 @@ git commit -m "Message"
 git push origin main
 ```
 
-4. Pull remote changes and push again if needed:
+6. Pull remote changes and push again if needed:
 
 ```bash
 git pull --rebase origin main
@@ -33,7 +43,7 @@ git pull --rebase origin main
 ```bash
 git push --force origin main
 ```
-5. Remove .git from project1 inside another git repo
+7. Remove .git from project1 inside another git repo:
 
 ```bash
 cd project1
