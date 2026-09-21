@@ -31,7 +31,21 @@ To rename branch:
 ```bash
 git branch -M main # converted to name "main" 
 ```
+To create new branch:
 
+```bash
+git checkout -b <branch-name>
+```
+To change current working branch:
+
+```bash
+git checkout <branch-name>
+```
+To delete branch:
+
+```bash
+git branch -d <branch-name>
+```
 
 4. Check the repository status:
 
