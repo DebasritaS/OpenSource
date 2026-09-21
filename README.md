@@ -58,6 +58,7 @@ git status
 ```bash
 git add <filename>   # or . to add all files
 ```
+Staged file/folder: after add when ready for commit 
 ```bash
 git commit -m "Message"
 ```
