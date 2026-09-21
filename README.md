@@ -5,6 +5,6 @@
     ->  ``` git commit -m "Message" ```
     <br>
     ->  ``` git push origin main ```
-3.       git pull --rebase origin main
+    ->  ``` git push origin main ```
+3.      ``` git pull --rebase origin main```
     ->  ``` git push --force origin main```
-
