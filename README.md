@@ -10,7 +10,11 @@ git status
 
 ```bash
 git add <filename>   # or . to add all files
+```
+```bash
 git commit -m "Message"
+```
+```bash
 git push origin main
 ```
 
