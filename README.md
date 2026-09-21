@@ -29,7 +29,7 @@ git branch
 To rename branch:
 
 ```bash
-git branch -M main ( converted to name "main" )
+git branch -M main # converted to name "main" 
 ```
 
 
@@ -47,8 +47,13 @@ git add <filename>   # or . to add all files
 ```bash
 git commit -m "Message"
 ```
+To push:
+
 ```bash
 git push origin main
+```
+```bash
+git push -u origin main # to upstream
 ```
 
 6. Pull remote changes and push again if needed:
