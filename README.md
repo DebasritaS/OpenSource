@@ -21,6 +21,11 @@ Verify remote:
 ```bash
 git remote -v
 ```
+Which Branch:
+
+```bash
+git branch
+```
 
 4. Check the repository status:
 
