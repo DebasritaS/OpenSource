@@ -18,5 +18,7 @@ git push origin main
 
 ```bash
 git pull --rebase origin main
+```
+```bash
 git push --force origin main
 ```
