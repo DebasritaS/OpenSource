@@ -6,7 +6,7 @@
 ```bash
 git init
 ```
-2. Git clone
+2. Git clone:
  
  ```bash
  git clone <repository-url>
