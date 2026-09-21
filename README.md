@@ -21,11 +21,17 @@ Verify remote:
 ```bash
 git remote -v
 ```
-Which Branch:
+To check branch:
 
 ```bash
 git branch
 ```
+To rename branch:
+
+```bash
+git branch -M main ( converted to name "main" )
+```
+
 
 4. Check the repository status:
 
