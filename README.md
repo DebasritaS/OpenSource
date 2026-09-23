@@ -110,3 +110,14 @@ We can also create PR on Github for the same result.
 ```bash
 git pull origin main 
 ```
+11. Reset 
+
+| Command                          | Use                                                          |
+| -------------------------------- | ------------------------------------------------------------ |
+| `git log`                        | View commit history                                          |
+| `git log --oneline`              | View compact commit history                                  |
+| `git reset <file-name>`          | Unstage one file                                             |
+| `git reset`                      | Unstage all files                                            |
+| `git reset HEAD~1`               | Undo the latest commit                                       |
+| `git reset <commit-hash>`        | Move back to a specific commit while keeping working changes |
+| `git reset --hard <commit-hash>` | Move back and discard changes after that commit              |
